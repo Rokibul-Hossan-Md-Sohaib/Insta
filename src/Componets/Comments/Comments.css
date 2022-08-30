@@ -1,0 +1,50 @@
+.comments {
+    margin-top: 10px;
+  }
+  
+  .comment__input {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    border-left: none;
+    border-right: none;
+    padding: 0 15px;
+    outline: none;
+  }
+  .comments__container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+  }
+  .comments__container-name {
+    margin-right: 8px;
+    text-transform: capitalize;
+  }
+  .comments__container-msg {
+    font-size: 14px;
+    color: silver;
+    font-weight: 300;
+  }
+  .show__reactions {
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  .reactions {
+    display: flex;
+    align-items: center;
+  }
+  .reactions-text {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .empty {
+    margin: 20px 0;
+    padding: 14px;
+    background: #fff;
+  }
